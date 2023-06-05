@@ -5,8 +5,8 @@
 
 public class valoresEnteros {
     public static void main(String[] args) {
-        int entero1 = 5;
-        int entero2 = 7;
+       // int entero1 = 5;
+       // int entero2 = 7;
         
 
     }
