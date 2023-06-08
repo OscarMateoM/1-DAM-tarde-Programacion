@@ -1,4 +1,9 @@
-
+/* AUTOR: OSCAR MATEO MARTIN
+ * Escribe un programa que pida dos números enteros por teclado y muestre por pantalla cual es
+ * el mínimo. Implementa y utiliza la función:
+ * int minimo(int a, int b) // Devuelve el menor entre a y b
+ */
+import misFunciones.Varias;
 import java.util.Scanner;
 
 public class Ej3 {
@@ -11,12 +16,10 @@ public class Ej3 {
         System.out.print("Ingrese el segundo número: ");
         int num2 = scanner.nextInt();
 
-        int min = minimo(num1, num2);
-
-        System.out.println("El mínimo entre " + num1 + " y " + num2 + " es: " + min);
+        int min = Varias.minimo(num1,num2);
+        scanner.close();
+        System.out.println("El mínimo es " + min);
     }
 
-    public static int minimo(int a, int b) {
-        return Math.min(a, b);
-    }
+
 }
